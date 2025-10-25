@@ -18,7 +18,7 @@ HTML and CSS
 
 ## Installation :-
 1. Clone the repository :
-    > git clone 
+    > git clone https://github.com/Thermodynamics0/healthy-eating-habits
 
 2. Navigate to the project directory :
     > cd healthy-eating-habits
