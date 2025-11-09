@@ -6,6 +6,7 @@
 
 body{
   font-family: "Poppins", sans-serif;
+  background-color: #f1f8e9;
 }
 
 nav{
@@ -54,7 +55,7 @@ nav a:hover{
   color: #37ad3d;
 }
 
-
+/* Hero Section */
 #home{
   height: 90vh;
   background-image: url(images/background.jpg);
@@ -93,4 +94,48 @@ nav a:hover{
 
 #home button:hover{
   background-color: #5a875d;
+}
+
+/* Tip Section */
+
+#tips{
+  padding: 5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#tips h1{
+  color: #2E7D32;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.tips-container{
+  display: flex;
+  gap: 3rem;
+}
+
+.tip-div{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 1.5rem 2rem;
+  border-radius: 1rem;
+
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#tips h2{
+  color: #2E7D32;
+  font-size: 1.2rem;
+}
+
+.tip-div p{
+  width: 250px;
+  text-align: center;
 }
