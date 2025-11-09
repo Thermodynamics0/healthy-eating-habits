@@ -193,6 +193,7 @@ nav a:hover{
   width: 300px;
   margin-right: 10px;
 }
+
 #contact button{
   cursor: pointer;
   padding: 0.6rem 1rem;
@@ -207,4 +208,14 @@ nav a:hover{
 
 #contact button:hover{
   background-color: #5a875d;
+}
+
+/* Footer */
+footer{
+  background-color: #2E7D32;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  color: white;
+  font-size: 1rem;
 }
