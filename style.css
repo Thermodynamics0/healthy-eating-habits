@@ -139,3 +139,32 @@ nav a:hover{
   width: 250px;
   text-align: center;
 }
+
+/* Gallery */
+#gallery{
+  padding: 5rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#gallery h1{
+  color: #2E7D32;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.img-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.img-container img{
+  width: 400px;
+  height: 350px;
+  border-radius: 10px;
+  object-fit: cover;
+}
